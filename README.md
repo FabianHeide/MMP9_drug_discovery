@@ -18,5 +18,6 @@ numpy
 pandas
 chembl-webresource-client
 rdkit
+scipy
 seaborn
 matplotlib
