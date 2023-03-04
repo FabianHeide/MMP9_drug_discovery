@@ -1,5 +1,7 @@
 import os
 
+#function is used to extract the affinities from ADV output files
+#the ADV output files are single log files for each compound that is docked where the affinities can be found in lines 27-31
 def extract():
     
     affinity_values = []
@@ -18,4 +20,6 @@ def extract():
             for item in affinity_values:
                 file.write(str(item) + '\n')
 
-print(extract())
+    return 'Extraction finished'
+
+extract()
