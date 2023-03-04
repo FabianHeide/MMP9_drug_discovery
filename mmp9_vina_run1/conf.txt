@@ -1,0 +1,15 @@
+receptor = mmp9_vinamodel.pdbqt
+
+
+center_x =64.3
+center_y =28.8
+center_z =115.5
+
+size_x =40
+size_y =40
+size_z =40
+
+exhaustiveness = 8
+
+num_modes = 5
+
